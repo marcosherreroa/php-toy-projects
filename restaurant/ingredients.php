@@ -1,6 +1,7 @@
 <?php 
-$title = 'Ingredients';
+//$title = 'Ingredients';
 $headerImage = 'ingredients-img-1.jpeg';
+$pageKey = 'ingredients';
 include 'inc/header.inc.php' ;
 ?>
 

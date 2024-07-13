@@ -1,6 +1,7 @@
 <?php 
 $title = 'Our mission';
 $headerImage = 'mission-img-1.jpg';
+$pageKey = 'mission';
 include 'inc/header.inc.php' ;
 ?>
 
