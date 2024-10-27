@@ -1,0 +1,37 @@
+header> nav a.header__link--active {
+  color:#dd9623;
+  border-color: #dd9623;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+}
+
+.pagination__link {
+  display: block;
+  color: #113343;
+  border: 0.125rem solid rgb(200,200,200);
+  width: 2rem;
+  height: 2rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.75rem;
+  margin-left: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.pagination__link--active {
+  color:#328677;
+  border-color: #328677;
+}
+
+.pagination__link:hover {
+  color: white;
+  background-color: #328677;
+  border-color: #328677;
+}
