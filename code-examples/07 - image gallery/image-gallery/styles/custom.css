@@ -1,0 +1,36 @@
+body {
+  padding-bottom: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
+  row-gap: 1.5em;
+  column-gap: 1em;
+}
+
+.frame {
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.img-title {
+  display: block;
+  height: 3em;
+  margin: 2px;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline rgba(11, 11, 88, 0.745);
+}
+
+.frame:hover > label.img-title {
+  text-decoration: none;
+}
+
+.image {
+  display: block;
+  aspect-ratio: 1920 /1440;
+  object-fit: cover;
+  position: relative;
+  bottom: 0;
+}

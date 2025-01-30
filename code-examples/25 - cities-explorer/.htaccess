@@ -1,0 +1,6 @@
+<FilesMatch "^(edit.php|other.php)$">
+AuthName "Editing a city"
+AuthType Basic
+AuthUserFile "C:\laragon\www\phpcourse\25 - cities-explorer\.htpasswd"
+Require valid-user
+</FilesMatch>
